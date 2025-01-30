@@ -22,10 +22,6 @@ fi
 # Define the base directory (assuming script is run from Pterodactyl root)
 BASE_DIR=$(pwd)
 
-# Upload the PANEL folder
-echo "Uploading PANEL folder..."
-cp -r PANEL "$BASE_DIR"
-
 # Run migrations
 echo "Running migrations..."
 php artisan migrate
