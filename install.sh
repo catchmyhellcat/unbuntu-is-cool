@@ -19,8 +19,6 @@ fi
 
 BASE_DIR=$(pwd)
 
-echo "Uploading PANEL folder..."
-cp -r PANEL "$BASE_DIR"
 
 echo "Running migrations..."
 php artisan migrate
